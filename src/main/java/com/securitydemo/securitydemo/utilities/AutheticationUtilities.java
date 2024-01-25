@@ -1,7 +1,11 @@
 package com.securitydemo.securitydemo.utilities;
+import org.springframework.stereotype.Component;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
+
+@Component
 public class AutheticationUtilities {
     public String getUserId(String authPrincipal){
         String extractedNumber =null;
